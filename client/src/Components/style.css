@@ -1,0 +1,189 @@
+.steamCard {
+    width: 300px;
+    height: 310px;
+    overflow: hidden;
+    margin: 20px;
+}
+
+.cardImg{
+    max-width: 300px;
+    transition: ease-in-out 0.1s;
+}
+
+img.cardImg:hover{
+    transform: scale(1.125);
+}
+
+p,a,span,h1{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbargg {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border-radius: 4px;
+    background-color: #eceff1;
+  }
+  
+  .navbar__link{
+    margin: 1em;
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+    letter-spacing: .3em;
+    text-indent: .3em;
+    color: #181818;
+    border-bottom: 3px solid transparent;
+    transition: ease-in .1s;
+  }
+
+  .nav-link{
+    margin: 1em;
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+    color: #181818;
+    border-bottom: 3px solid transparent;
+    transition: ease-in .1s;
+  }
+  
+  .navbar__link:hover, .nav-link:hover{
+    transform: scale(1.13);
+    text-decoration: none;
+    color: #181818;
+  }
+  
+  div.mb-3.input-group{
+      width: 200px;
+  }
+
+  .navbar__link--active {
+    border-bottom: 3px solid #29b6f6;
+    transition: border-bottom .5s ease-in-out;
+    transition: ease-in .1s
+  }
+
+  div.dropdown.nav-item{
+      position: absolute;
+      right: 20px;
+  }
+
+  img.imgArt{
+      max-height: 200px;
+      margin: 5px;
+      transition: ease-in-out .25s;
+  }
+
+  img.imgArt:hover{
+    filter: brightness(40%)
+  }
+
+  div.keterangan{
+      position: relative;
+      bottom: 80px;
+      z-index: 2;
+      font-weight: bold;
+      height: 20px;
+      width: 200px;
+      transition: ease-in-out .25s;
+      margin-left: 5px;
+  }
+
+    .row{
+        justify-content: space-between;
+    }
+
+    button.imgShow{
+        display: flex;
+        justify-content: center;
+        border-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    div.modal-dialog.modal-lg{
+        max-width: 90%;
+    }
+
+    img.bigImg{
+        max-width: 100%;
+        margin: auto;
+    }
+    div.bigImgContainer{
+        display: flex;
+        background-color: black;
+    }
+
+    div.likes{
+        text-align: right;
+        bottom: 50px;
+        position: relative;
+    }
+
+
+
+/* 
+.Navbar{
+    z-index: 1;
+    width: 100vw;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+} */
+
+/* ul .mainMenus{
+    position: absolute;
+    top: 0;
+    
+} */
+/* 
+li{
+    list-style-type: none;
+    margin: 5px;
+    float: left;
+} */
+
+/* li a{
+    left: -30px;
+    bottom: 15px;
+    position: relative;
+    height: 30px;
+    color: black;
+    font-weight: bolder;
+    transition: ease-in .1s;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px;
+}
+
+a:hover{
+    transform: scale(1.2);
+} */
+
+
+
+img.dtlImg{
+    position: absolute;
+    width: 230px;
+    height: 205px;
+    z-index: 2;
+    top:5px;
+    animation: animateImg 0s 3s forwards;
+    visibility: hidden;
+}
+
+@keyframes animateImg{
+    to {visibility: visible;}
+}
+
+
+.loginForm form{
+    font-weight: bolder;
+    margin-left: 10px;
+}

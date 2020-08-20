@@ -1,0 +1,7 @@
+{
+    "files.autoSave": "onWindowChange",
+    "editor.fontSize": 17,
+    "workbench.colorTheme": "Default High Contrast",
+    "workbench.preferredDarkColorTheme": "Monokai",
+    "editor.formatOnSave": true
+}
